@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.logo img {
+  width: 110px;
+  height: auto;
+  margin-left: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: ease-out;
+}
+
+nav ul li a:hover {
+  color: #ef3434;
+  border-bottom: 1px solid #ef3434;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+nav ul li a.active {
+  color: #ef3434;
+  border-bottom: 1px solid #ef3434;
+  border-radius: 1px;
+}
+
+.login-btn button a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-btn button {
+  font-size: 17px;
+  background-color: #ef3434;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+main .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #7e7878;
+  border-radius: 10px;
+  background-color: rgb(235, 225, 225);
+  gap: 5px;
+}
+
+.course img {
+  width: 225px;
+  height: 225px;
+  border-radius: 10px;
+}
+
+.course span {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.course p {
+  font-size: 18px;
+}
+
+.course button {
+  font-size: 18px;
+  background-color: #ef3434;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+}
+
+.course button:hover {
+  background-color: transparent;
+  color: #ef3434;
+  border: 2px solid #ef3434;
+  border-radius: 8px;
+  transition: 0.4s ease-in;
+}
+
+.full img {
+  width: 100%;
+  height: auto;
+}
+
+.full {
+  width: 800px;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #ef3434;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
